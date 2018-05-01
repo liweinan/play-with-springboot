@@ -5,6 +5,7 @@ public class EchoMessage {
     private long timestamp;
     private String echoText;
 
+
     public EchoMessage(String echoText) {
         timestamp = System.currentTimeMillis();
         this.echoText = echoText;
